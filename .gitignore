@@ -9,3 +9,5 @@ dist/
 # Ignore virtual environments
 venv/
 env/
+
+data.csv

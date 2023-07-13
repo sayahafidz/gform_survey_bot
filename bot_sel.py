@@ -62,7 +62,6 @@ class Bot():
         # page3
 
         for data in page3:
-            # //*[@id="mG61Hd"]/div[2]/div/div[2]/div[22]/div/div/div[2]/div/span/div/label[5]/div[2]/div/div/div[3]/div
             self.driver.find_element(By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[2]/div[' + str(
                 data) + ']/div/div/div[2]/div/span/div/label[' + str(random.randint(4, 5)) + ']/div[2]/div/div/div[3]/div').click()
 
@@ -77,8 +76,6 @@ class Bot():
 
         self.driver.find_element(
             By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div[2]/span/span').click()  # kirim
-        # time.sleep(1)
-        # time.sleep(99999)
 
 
 hitung = 0
